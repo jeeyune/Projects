@@ -2,8 +2,9 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 
-user = "oingoing_@naver.com"
-pwd = "oingoing77"
+# replace with your FB credentials
+user = "username"
+pwd = "pwd"
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get("http://facebook.com/")
